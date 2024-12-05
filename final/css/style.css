@@ -1,29 +1,75 @@
-/* General Reset */
-body {
+.pink-background {
+    background-color: #FFC1CC;
+    padding: 20px;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.text-container h1 {
+    font-size: large;
     margin: 0;
-    font-family: Arial, sans-serif;
     text-align: center;
 }
 
-/* Banner Styles */
-.banner {
-    background-color: #ff1493; /* Dark pink */
-    color: white;
-    padding: 50px 20px; /* Spacing inside the banner */
+.intro-section {
     text-align: center;
-}
-
-.banner h1 {
-    font-size: 4rem; /* Large title text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
     margin: 0;
+    width: 100%;
 }
 
-.banner h2 {
-    font-size: 2rem; /* Slightly smaller subtitle */
-    margin: 10px 0;
+.textures {
+    text-align: center;
+    padding: 20px; 
 }
 
-.banner p {
-    font-size: 1.2rem; /* Smaller text for attribution */
-    margin: 5px 0 0;
+.image-container img {
+    width: 80%; 
+    max-width: 600px; 
+    margin: 0 auto 20px; 
+    display: block;
+}
+
+.text-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: left; 
+    line-height: 1.6; 
+}
+
+.text-container h2 {
+    text-align: center; 
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.text-container ol {
+    list-style-position: inside;  
+    padding: 0;
+}
+
+.text-container li {
+    margin-bottom: 15px; 
+    font-size: 1rem;
+}
+
+.text-container p {
+    margin-top: 20px; 
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.childhood-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
