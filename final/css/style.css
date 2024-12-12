@@ -1,75 +1,40 @@
-.pink-background {
-    background-color: #FFC1CC;
-    padding: 20px;
-    min-height: 100vh; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 40px;
+body {
+    background-color: #ffc1cc ;
+    line-height: 1.6;
 }
 
-.text-container h1 {
-    font-size: large;
-    margin: 0;
+.section {
+    padding: 40px 0;
+}
+
+.container {
+    width: 45%;
+}
+
+h2 {
     text-align: center;
-}
-
-.intro-section {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 500px;
-    margin: 0;
-    width: 100%;
-}
-
-.textures {
-    text-align: center;
-    padding: 20px; 
-}
-
-.image-container img {
-    width: 80%; 
-    max-width: 600px; 
-    margin: 0 auto 20px; 
-    display: block;
-}
-
-.text-container {
-    max-width: 800px; 
-    margin: 0 auto; 
-    text-align: left; 
-    line-height: 1.6; 
-}
-
-.text-container h2 {
-    text-align: center; 
     font-size: 2rem;
-    margin-bottom: 20px;
+    padding: 20px 0;
 }
 
-.text-container ol {
-    list-style-position: inside;  
-    padding: 0;
+.textures img,
+.hairstyles img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px 0;
 }
 
-.text-container li {
-    margin-bottom: 15px; 
-    font-size: 1rem;
+ol {
+    list-style-position: inside; 
 }
 
-.text-container p {
-    margin-top: 20px; 
-    font-size: 1rem;
-    font-weight: bold;
+li {
+    margin-bottom: 15px;
 }
 
-.childhood-section {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+@media (max-width: 550px) {
+    .container {
+        width: 95%;
+    }
 }
